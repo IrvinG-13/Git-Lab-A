@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    min-height: 100vh;         
+    background-color: rgb(223, 220, 220);
+}
+
+.Centro {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;       
+    text-align: center;       
+    gap: 20px;                 
+    max-width: 700px;         
+}
+  
+.Descripcion, .Reseña {
+    max-width: 500px;          
+}
+
